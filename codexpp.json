@@ -1,0 +1,23 @@
+{
+  "id": "rainbow-context-bar",
+  "name": "彩虹上下文进度条",
+  "version": "0.1.0",
+  "description": "将输入区的上下文用量圆环改为彩虹渐变进度条，实时显示实际用量百分比，保留原有悬停详情。",
+  "engines": {
+    "codexpp": 1
+  },
+  "renderer": [
+    "renderer.js"
+  ],
+  "permissions": {
+    "routes": []
+  },
+  "config": {
+    "barWidth": {
+      "type": "number",
+      "title": "进度条宽度（像素）",
+      "default": 64
+    }
+  },
+  "repository": "BigPizzaV3/codexpp-rainbow-context-bar"
+}
